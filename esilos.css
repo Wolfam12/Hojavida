@@ -2,6 +2,7 @@
     background: white;
     width: 1000px;
     height: 2000px;
+    display: flex;
     
 }
 .Left_section{
@@ -79,4 +80,66 @@
     border-bottom: solid 2px;
     border-color: black;
 
+}
+.name{
+  font-size: 30px;
+  padding-left: 50px;
+    
+}
+.contenedorTitulos{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  height: auto;
+}
+.contenedor_datosgenerales{
+  text-align: center;
+  display: flex;
+  
+  max-width: 500px;
+  height: auto;
+  
+}
+.contenedor_logo{
+  padding-left: 50px; 
+}
+.logo{
+  
+  width: 25px;
+  height:25px;
+}
+.linkedin{
+  padding-left: 47px;
+  padding-bottom: 20px;
+}
+.contenido{
+  padding-left: 10px;
+}
+.datosGenerales{
+  padding-top: -50px;
+}
+.bordesrightsection{
+  width: 1000px;
+    border-bottom: solid 1px;
+    border-color: black;
+    padding-top: 10px;
+}
+.titles_rightsection{
+  max-width: 250px;
+    
+  color: black;
+  font-size: 18px;
+  font-family : 'Times New Roman', Times, serif;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+.contenido_formacion{
+  padding-top: 5px;
+  padding-left: 50px;
+}
+.fecha_formacion{
+  padding-top: 20px;
+  padding-left: 50px;
 }
