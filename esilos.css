@@ -1,0 +1,82 @@
+.Contenedor{
+    background: white;
+    width: 1000px;
+    height: 2000px;
+    
+}
+.Left_section{
+    width:400px ;
+    height: 2000px;
+    background: rgb(40, 40, 51);
+}
+.container_photo {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    border-bottom: solid 2px;
+    border-color: 3px;
+  }
+  
+  .container_img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 70%;
+    padding-bottom: 20px;
+  }
+  .container_aptitudes{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .titles{
+    max-width: 250px;
+    
+    color: white;
+    font-size: 18px;
+    font-family : 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+  .Aptitudes_list{
+    font-size: small;
+    color: white;
+    
+  }
+  .profesional_content{
+    width: 200px;
+    font-size: small;
+    color: white;
+   
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+  }
+  .contenedorgenerico{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.contenedorTitulo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    height: auto;
+}
+  
+  p {
+    text-align: justify;
+}
+.bordesleftsection{
+    width: 400px;
+    border-bottom: solid 2px;
+    border-color: black;
+
+}
