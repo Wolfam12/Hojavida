@@ -1,14 +1,27 @@
 .Contenedor{
     background: white;
     width: 1000px;
-    height: 2000px;
-    display: flex;
+    height: max-content;
     
+    display: flex;
+    padding-bottom: 20px;
+    
+       
 }
 .Left_section{
     width:400px ;
-    height: 2000px;
+    
     background: rgb(40, 40, 51);
+    margin-left: 25%;
+   
+}
+.right_section{
+  margin-right: 25%;
+  border-right: solid black 2px;
+  border-bottom: solid black 2px;
+  padding-bottom: 20px;
+  width: max-content;
+  
 }
 .container_photo {
     width: 400px;
@@ -44,13 +57,14 @@
     padding-left: 50px;
   }
   .Aptitudes_list{
-    font-size: small;
+    font-size: 20px;
     color: white;
+    text-align: left
     
   }
   .profesional_content{
-    width: 200px;
-    font-size: small;
+    width: 250px;
+    font-size: 20px;
     color: white;
    
     padding-top: 20px;
@@ -161,6 +175,7 @@ progress::-webkit-progress-value {
 }
 .contenedoridiomas{
   display: flex;
+  padding-top: 20px;
 }
 .nivelIngles{
   margin-left: 180px;
